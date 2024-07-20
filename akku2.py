@@ -1671,7 +1671,7 @@ def meyexudi():
   uuid = str(os.geteuid()) + str(os.getlogin())
   id = "akku××key".join(uuid)
   try:
-    httpCaht = requests.get('https://github.com/akku-077/approval.txt').text
+    httpCaht = requests.get('https://github.com/akku-077/akku-2/blob/main/Approval.txt').text
     if id in httpCaht:
       msg = str(os.geteuid())
       #time.sleep(0.5)
